@@ -1223,7 +1223,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #ffff00;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1799,8 +1799,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #ffff00;
+    border-right: 2px solid #ffff00;
     content: '';
     display: block;
     height: 8px;
@@ -1874,7 +1874,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #af2b2b;
+    color: #ffff00;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -3016,11 +3016,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .section-intro p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .s-contact .form-field {
@@ -3044,8 +3044,8 @@ html.no-csstransitions .home-content__main {
     letter-spacing: .1rem;
     padding: 0 2rem;
     margin: 0;
-    color: #FFFFFF;
-    background: #862121;
+    color: rgb(0, 0, 0);
+    background: #ffff00;
 }
 
 .s-contact .form-field label::after {
@@ -3056,7 +3056,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
+    border-right: 5px solid #ffff00;
 }
 
 .contact__main {
