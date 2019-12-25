@@ -156,7 +156,6 @@
 }
 
 
-/* style is added when JS option showHideOpacity is set to true */
 
 .pswp--animate_opacity {
     /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
