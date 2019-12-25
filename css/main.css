@@ -488,7 +488,7 @@ form,
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0F1215;
+    background: rgb(15, 18, 21);
     z-index: 800;
     height: 100%;
     width: 100%;
@@ -507,7 +507,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #fbff00;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
