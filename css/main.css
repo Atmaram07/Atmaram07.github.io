@@ -948,6 +948,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 
+
 /* ------------------------------------------------------------------- 
  * ## blog-list - (_common-styles.scss)
  * ------------------------------------------------------------------- */
@@ -1131,7 +1132,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     margin: 0;
     padding: 0;
     left: 50px;
-    top: 50%;
+    top: 56%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1144,7 +1145,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 70px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1392,7 +1393,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     color: yellow;
     text-transform: uppercase;
     letter-spacing: .5rem;
@@ -1815,9 +1816,9 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top: 15rem;
-    padding-bottom: 9rem;
-    background-color: #FFFFFF;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+    background-color: #f1f1f1;
     position: relative;
 }
 
@@ -1971,12 +1972,14 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-bottom: 15.6rem;
     background-color: #f1f1f1;
     position: relative;
 }
-
+.col-full{
+    width: 100%;
+}
 
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry - (_site-layout.scss)
@@ -2013,6 +2016,7 @@ html.no-csstransitions .home-content__main {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
+
 
 .item-folio__thumb .shadow-overlay {
     position: absolute;
@@ -2103,15 +2107,15 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link {
     display: block;
     color: #FFFFFF;
-    box-shadow: 0 0 0 1px #FFFFFF;
+    box-shadow: 0 0 0 2.5px #FFFFFF;
     border-radius: 50%;
     height: 4.2rem;
     width: 4.2rem;
     text-align: center;
     z-index: 500;
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 16rem;
+    left: 15rem;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translate3d(-100%, 0, 0);
