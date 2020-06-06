@@ -1900,7 +1900,9 @@ html.no-csstransitions .home-content__main {
 
 /* certificate */
 
-
+.venobox{
+    width: 250px;
+}
 #certificate {
     padding: 60px;
     overflow: hidden;
