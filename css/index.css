@@ -1541,7 +1541,7 @@ h6 {
 /*Title*/
 .heading-2 {
   color: #ffffff;
-  font-size: 95px;
+  font-size: 90px;
   line-height: 90px;
   margin-top: 0px;
   margin-bottom: 40px;
@@ -1558,12 +1558,13 @@ h6 {
 
 /*Title*/
 .heading-3 {
-  color: #ffffff;
+  color: #fee5b5;
 }
 
 .heading-3 p {
   display: inline;
 }
+
 
 /*Button*/
 .button-1 {
@@ -1673,6 +1674,7 @@ h6 {
  {
   border-radius: 40px 0px 40px 0px;
 }
+
 
 /*Section*/
 .section-2 {
