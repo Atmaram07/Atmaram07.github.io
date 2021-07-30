@@ -2,4 +2,4 @@
 
 ## This is my portfolio website.
 ## 
-## Link to my website : https://atmarampatra.live/
+## Link to my website : https://Atmaram07.github.io
